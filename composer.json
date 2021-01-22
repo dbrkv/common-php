@@ -1,0 +1,16 @@
+{
+  "name": "sunthera/common-php",
+  "type": "library",
+  "license": "MIT",
+  "description": "Common php classes",
+  "require": {
+    "php": ">=7.4.14",
+    "beberlei/assert": "^3.3",
+    "symfony/uid": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sunthera\\Common\\": "src/"
+    }
+  }
+}
