@@ -4,7 +4,7 @@
   "license": "MIT",
   "description": "Common php classes",
   "require": {
-    "php": "^7.4",
+    "php": "^7.4|^8.0",
     "beberlei/assert": "^3.3",
     "symfony/uid": "^5.2"
   },
