@@ -14,7 +14,7 @@ abstract class ThinDomainEvent implements DomainEvent
 {
     private string $id;
     private string $type;
-    private DateTimeImmutable $occurredOn;
+    protected DateTimeImmutable $occurredOn;
 
     protected function __construct(string $type)
     {
