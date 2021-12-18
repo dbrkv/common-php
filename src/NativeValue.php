@@ -8,10 +8,8 @@ namespace Sunthera\Common;
 
 interface NativeValue
 {
-    /**
+    /*
      * Native scalar representation of value object
-     *
-     * @return int|float|string|bool
      */
-    public function toNative();
+    public function toNative(): int|float|string|bool;
 }

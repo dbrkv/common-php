@@ -21,7 +21,7 @@ trait HasEvents
     /**
      * @return DomainEvent[]
      *
-     * @psalm-return array<array-key, DomainEvent>
+     * @psalm-return array<DomainEvent>
      */
     public function popRecordedEvents(): array
     {
